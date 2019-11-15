@@ -50,6 +50,6 @@ RUN ln -s /boolector/build/bin/boolector /root/.racket/7.4/pkgs/rosette/bin/bool
 # Setup environment variables - assumes the artifact directory is mounted at /artifact
 ENV ARTIFACT_HOME=/artifact
 ENV TVM_HOME=/artifact/tvm
-ENV PYTHONPATH=/artifact/tvm/python:/artifact/tvm/topi/python:/aftifact/tvm/Models
+ENV PYTHONPATH=/artifact/tvm/python:/artifact/tvm/topi/python:/artifact/tvm/Models
 ENV PORT=9090
 WORKDIR /
