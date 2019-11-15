@@ -19,7 +19,11 @@ Download code and build docker image
 
 Build TVM
 
-`$ cd artifact/tvm/build$ cmake .. && make -j4`
+`$ cd tvm`
+
+`$ mkdir build && cd build`
+
+`$ cmake .. && make -j4`
 
 Copy scripts to raspberry pi 
 
