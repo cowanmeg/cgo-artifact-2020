@@ -27,7 +27,9 @@ Build TVM
 
 Copy scripts to raspberry pi 
 
-`$ cd /artifact$ export PI=<Raspberry Pi's IP address>`
+`$ cd /artifact$`
+
+`$ export PI=<Raspberry Pi's IP address>`
 
 `$ scp -r pi <pi-user@ip>:/home/pi-user`
 
