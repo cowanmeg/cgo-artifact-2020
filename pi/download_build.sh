@@ -5,8 +5,8 @@ HOME=$(pwd)
 
 # Download tvm and build the runtime
 git clone --recursive https://github.com/apache/incubator-tvm.git tvm
-git checkout d4ca627a5a5df88f477bd6cc89ee2e3e06931c29
 cd tvm
+git checkout d4ca627a5a5df88f477bd6cc89ee2e3e06931c29
 mkdir build
 cp cmake/config.cmake build
 cd build
